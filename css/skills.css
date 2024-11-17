@@ -1,0 +1,148 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for all sections */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header .logo {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #2980b9, #8e44ad);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.hero p {
+    font-size: 24px;
+    animation: fadeInUp 2s ease-out;
+}
+
+/* Skills Sections */
+.skills-section {
+    padding: 80px 0;
+    text-align: center;
+    animation: fadeInUp 2s ease-out;
+}
+
+.skills-section .section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skills-section .section-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Skill Bars */
+.skill-bars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-bar {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.skill-bar h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Skill bar colors */
+.bar {
+    height: 10px;
+    background-color: #ddd;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 0%;
+    transition: width 2s ease-in-out;
+}
+
+/* Web Development */
+.webdev .html {
+    background-color: #e74c3c;
+    width: 90%;
+}
+.webdev .css {
+    background-color: #3498db;
+    width: 85%;
+}
+.webdev .javascript {
+    background-color: #f39c12;
+    width: 80%;
+}
+.webdev .react {
+    background-color: #1abc9c;
+    width: 75%;
+}
+
+/* Data Science */
+.datascience .python {
+    background-color: #3498db;
+    width: 85%;
+}
+.datascience .r {
+    background-color: #
